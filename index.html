@@ -92,7 +92,6 @@
       text-align: center;
     }
 
-    /* 个性签名样式 */
     .signature {
       margin-top: 40px;
       text-align: center;
@@ -141,20 +140,19 @@
       color: #d1d1d1;
     }
 
-    /* 修正夜间模式下标题和文本颜色 */
     .dark-mode .website-card h2,
     .dark-mode .project-card h2 {
-      color: #a1c6ff; /* 修改项目和网站卡片标题为浅蓝色 */
+      color: #a1c6ff; 
     }
 
     .dark-mode .website-card p,
     .dark-mode .project-card p {
-      color: #b3b3b3; /* 调整文本颜色为浅灰色 */
+      color: #b3b3b3; 
     }
 
     .dark-mode .website-card a,
     .dark-mode .project-card a {
-      color: #5abaff; /* 修改链接颜色为亮蓝 */
+      color: #5abaff; 
     }
 
     .dark-mode .website-card a:hover,
@@ -164,18 +162,17 @@
     }
 
     .dark-mode .skills-list li {
-      background-color: #444; /* 调整技术栈条目的背景色 */
-      color: #d1d1d1; /* 调整文字颜色为浅灰 */
+      background-color: #444;
+      color: #d1d1d1; 
     }
 
     .dark-mode .skills-list li:hover {
       background-color: #555;
     }
 
-    /* 调整项目卡片和网站卡片整体背景为夜间模式 */
     .dark-mode .website-card,
     .dark-mode .project-card {
-      background-color: #444; /* 改为深灰色 */
+      background-color: #444; 
       border: 1px solid #666;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     }
@@ -198,7 +195,7 @@
     }
 
     .contact-form {
-      background-color: #444; /* 夜间模式下调整表单背景 */
+      background-color: #444;
       padding: 20px;
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -245,17 +242,17 @@
     <h1>Hello! I'm Tommy.</h1>
     <img src="https://cdn.luogu.com.cn/upload/image_hosting/xegk3fah.png" alt="Tommy Jin" class="profile-photo">
 
-    <!-- 个性签名部分 -->
+    <!-- 个性签名 -->
     <div class="signature">
       <p>"Stay curious, keep coding, and never stop exploring!"</p>
       <span>— Tommy Jin</span>
     </div>
 
-    <!-- 关于我部分 -->
+    <!-- 关于我 -->
     <h2 id="about-me" class="about-title">About me.</h2>
     <p>你好！我是Tommy Jin，我是一名热爱编程和挑战的开发者。我的兴趣包括算法竞赛、音乐、以及手工制作纸模型。</p>
 
-    <!-- 我的站点 -->
+    <!-- 站点 -->
     <h2 id="websites" class="project-title">My website</h2>
     <div class="website-list">
       <div class="website-card">
@@ -330,7 +327,6 @@
   <script>
     AOS.init();
 
-    // 夜间模式切换
     const toggleButton = document.getElementById('dark-mode-toggle');
     toggleButton.addEventListener('click', () => {
       document.body.classList.toggle('dark-mode');
