@@ -142,17 +142,17 @@
 
     .dark-mode .website-card h2,
     .dark-mode .project-card h2 {
-      color: #a1c6ff; 
+      color: #a1c6ff;
     }
 
     .dark-mode .website-card p,
     .dark-mode .project-card p {
-      color: #b3b3b3; 
+      color: #b3b3b3;
     }
 
     .dark-mode .website-card a,
     .dark-mode .project-card a {
-      color: #5abaff; 
+      color: #5abaff;
     }
 
     .dark-mode .website-card a:hover,
@@ -163,7 +163,7 @@
 
     .dark-mode .skills-list li {
       background-color: #444;
-      color: #d1d1d1; 
+      color: #d1d1d1;
     }
 
     .dark-mode .skills-list li:hover {
@@ -172,7 +172,7 @@
 
     .dark-mode .website-card,
     .dark-mode .project-card {
-      background-color: #444; 
+      background-color: #444;
       border: 1px solid #666;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     }
@@ -266,9 +266,9 @@
         <a href="https://www.luogu.com/user/863783" target="_blank">ClickHere</a>
       </div>
       <div class="website-card">
-        <h2>My Nextcloud.</h2>
+        <h2>My Alist.</h2>
         <p>我的个人网盘</p>
-        <a href="http://218.201.91.220:8989" target="_blank">ClickHere</a>
+        <a href="http://218.201.91.220:4255" target="_blank">ClickHere</a>
       </div>
       <div class="website-card">
         <h2>My Github.</h2>
@@ -291,6 +291,16 @@
         <h2>My NetEase CloudMusic.</h2>
         <p>我的网易云音乐主页</p>
         <a href="https://music.163.com/#/user/home?id=4056838185" target="_blank">ClickHere</a>
+      </div>
+      <div class="website-card">
+        <h2>My Jellyfin.</h2>
+        <p>我的影音库</p>
+        <a href="http://218.201.91.220:8096" target="_blank">ClickHere</a>
+      </div>
+      <div class="website-card">
+        <h2>My Navidrome.</h2>
+        <p>我的音乐库</p>
+        <a href="http://218.201.91.220:4533" target="_blank">ClickHere</a>
       </div>
     </div>
 
@@ -333,15 +343,15 @@
       </div>
     </div>
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
 
-    const toggleButton = document.getElementById('dark-mode-toggle');
-    toggleButton.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-  </script>
+      const toggleButton = document.getElementById('dark-mode-toggle');
+      toggleButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+      });
+    </script>
 </body>
 
 </html>
